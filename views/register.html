@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto+Condensed:ital,wght@0,300;1,400&family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/register.css">
+    <script src="https://kit.fontawesome.com/8def7635c6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header-top-bar">  
+
+        <div class="logo-boton-contenedor">
+            <img src="/images/logo-mercado-liebre.svg" class="logo">
+    
+            <form action="/buscar" method="get">
+                <div class="boton">
+                  <input type="text" name="q" placeholder="Buscar productos, marcas">
+                  <button type="submit"><div class="busqueda"><i class="fa-solid fa-magnifying-glass"></i></div></button>
+                </div>
+              </form>
+              
+        
+        </div>
+            
+
+        <h2 class="copy-header">
+    <i class="fa-solid fa-hand-holding-dollar"></i>
+    Compra en cuotas y sin tarjetas de credito
+    </h2>
+        </div>
+        
+            <a href="#" class="burger-menu">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+            
+            <nav class="main-navbar">
+            <ul class="left-navbar">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+    
+            
+            <ul class="right-navbar">
+                <li><a href="#">Crea Tu Cuenta <i class="fa-regular fa-credit-card"></i></a></li>
+                <li><a href="#">Ingresa <i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
+                <li><a href="#">Mis Compras <i class="fa-solid fa-basket-shopping"></i></a></li>
+
+            </ul>
+            </nav>
+            <div class="banner"><img src="/images/img-home-banner.jpg" width="100%"></div>
+    
+            <form action="home.html" method="get" class="create-form">
+   
+                <div class="formulario">
+
+        <div class="control-formulario">
+            <input type="text" name="nombre-apellido" class="control" placeholder="Nombre y apellido" pattern="[a-zA-Z]{1,}" required>
+            <span class="error">Ingrese un nombre y apellido válido (al menos un caracteres)</span>            
+    </div>
+
+    <div class="control-formulario">
+    <input type="text" name="usuario" class="control" placeholder="Nombre de usuario" pattern="[a-zA-Z]{8,}" required>
+    <span class="error">Ingrese un nombre de usuario válido (al menos ocho caracteres)</span>    
+</div>
+
+<div class="control-formulario">
+    <input type="email" name="email" class="control" placeholder="E-mail">
+</div>
+
+<div class="control-formulario">
+    <label>Fecha De Nacimiento:</label>
+    <input type="date" name="fecha" class="control" placeholder="Fecha de nacimiento">
+</div>
+
+<div class="control-formulario">
+    <input type="text" name="domicilio" class="control" placeholder="Domicilio">
+</div>
+
+
+    <div class="control-formulario">
+        <label>Perfil del usuario:</label>
+        <input type="radio" name="perfil" value="Comprar productos">Comprador
+        <input type="radio" name="perfil"  value="Vender productos">Vendedor
+        </div>
+  
+  
+    <div class="control-formulario">
+        <label>Categorias de interes:</label>
+        <label><input type="checkbox" name="categorias" value="Electro" class="intereses">Electro</label>
+        <label><input type="checkbox" name="categorias" value="Moda" class="intereses">Moda</label>
+        <label><input type="checkbox" name="categorias" value="Hogar" class="intereses">Hogar</label>
+        <label><input type="checkbox" name="categorias" value="Jugueteria" class="intereses">Jugueteria</label>
+        <label><input type="checkbox" name="categorias" value="Vida sana" class="intereses">Vida Sana</label>
+
+</div>
+<div class="control-formulario">
+    <label>Foto de usuario:</label>
+    <input type="file" name="foto" accept=".jpg" placeholder="Foto de usuario" class="control">
+</div>
+
+<div class="control-formulario">
+    <input type="password" name="contraseña" class="control" placeholder="Contraseña" pattern="[a-zA-Z]{8,}" required>
+    <span class="error">Ingrese una contarseña valida (al menos ocho caracteres)</span>            
+</div>
+
+<div class="control-formulario">
+    <input type="password" name="Confirmar" class="control" placeholder="Confirmar contraseña">
+</div>
+
+<div class="control-formulario">
+<button type="reset" class="control">Borrar</button>
+<a href="home.html"><button type="submit" class="control">Enviar</button></a>
+</div>
+    </form>
+</header>
+</body>

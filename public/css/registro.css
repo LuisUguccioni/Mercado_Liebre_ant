@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.formulario {
+    background-color: #ebebeb;
+    width:50%;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.create-form {
+    padding: 20px 15px;
+  }
+
+  .control-formulario {
+    margin-bottom: 5px;
+    margin: 5% 10%;
+    width:80%;
+  }
+
+  .control-formulario label {
+    margin-bottom: 5px;
+    font-family: 'roboto', sans-serif;
+    display:block;
+  }
+
+  .control {
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+  }
+
+  .intereses{
+    display:inline;
+    margin-bottom: 10px;
+    }
+
+    .control[type="reset"],
+    .control[type="submit"] {
+      font-size: 12px;
+      padding: 3px 8px;
+      width: 40%;
+      margin-left: 5%;
+      margin-bottom: 20px;
+    }
+
+    .error {
+        color: red;
+        font-size: 12px;
+        display: none;
+      }
+
+      .control:invalid + .error {
+        display: block;
+      }

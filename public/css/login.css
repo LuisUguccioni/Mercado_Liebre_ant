@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.login {
+
+    width:50%;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.create-form {
+    padding: 20px 15px;
+  }
+
+
+  .loguear {
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 8%;
+    margin-bottom: 20px;
+
+  }
+
+
+    .loguear[type="submit"] {
+      font-size: 12px;
+      padding: 3px 8px;
+      background-color: blue;
+      color:white;
+    }
+
+.body {
+    background-color: #ebebeb;
+}
+
+.footer {
+    background-color: #ebebeb;
+}      
